@@ -1,0 +1,6 @@
+# Local browser-render checks
+*-check.png
+
+# Operating-system files
+Thumbs.db
+.DS_Store
