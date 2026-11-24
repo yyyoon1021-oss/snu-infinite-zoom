@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>서울대학교 무한 줌 - 플랫</title>
+  <link rel="stylesheet" href="../src/base.css">
+</head>
+<body class="flat">
+  <svg id="stage" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="서울대학교 일러스트 무한 줌">
+    <defs id="scenes"></defs>
+    <g id="camera"></g>
+  </svg>
+  <div class="hud top"><strong>서울대학교 무한 줌 · 플랫</strong><button id="play">일시정지</button></div>
+  <div class="hud bottom"><span id="label"></span></div>
+  <script>window.SNU_STYLE = 'flat';</script>
+  <script src="../src/draw.js"></script>
+  <script src="../src/scenes.js"></script>
+  <script src="../src/zoom.js"></script>
+</body>
+</html>
